@@ -59,6 +59,8 @@ subitems:
         url: /metabolomics
       - title: Microbial biotechnology
         url: /microbial_biotechnology
+      - title: Multi-omics
+        url: /multiomics
       - title: Plant sciences
         url: /plant_sciences
       - title: Proteomics

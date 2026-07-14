@@ -3755,3 +3755,23 @@
   id: metabolomicshub
   name: MetabolomicsHub
   url: https://www.metabolomicshub.org/
+- description: Recommended Metadata for Biological Images, a checklist describing the minimum metadata that should accompany deposited biological imaging data.
+  id: rembi
+  name: REMBI
+  url: https://www.ebi.ac.uk/bioimage-archive/rembi-help-overview/
+- description: Bioconductor data structure that holds multiple assays measured on a shared set of samples, preserving the mapping between them.
+  id: multiassayexperiment
+  name: MultiAssayExperiment
+  url: https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html
+- description: Python framework and data container for multimodal omics data, extending the annotated data model to several modalities over shared observations.
+  id: muon
+  name: muon
+  url: https://muon.readthedocs.io/
+- description: Multi-Omics Factor Analysis, an unsupervised method that infers latent factors explaining variation shared across several omics modalities.
+  id: mofa
+  name: MOFA
+  url: https://biofam.github.io/MOFA2/
+- description: R package providing multivariate methods for the supervised and unsupervised integration of several omics datasets.
+  id: mixomics
+  name: mixOmics
+  url: https://mixomics.org/
