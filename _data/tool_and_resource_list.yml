@@ -3586,3 +3586,79 @@
     fairsharing: 81ettx
     tess: Bioconductor
   url: https://www.bioconductor.org/
+- description: Minimum Information Required for A Glycomics Experiment, a modular set of reporting guidelines for glycomics and glycoproteomics experiments.
+  id: mirage
+  name: MIRAGE
+  url: https://www.beilstein-institut.de/en/projects/mirage/
+- description: Repository for raw mass spectrometry data from glycomics and glycoproteomics experiments, with submission conditions following the MIRAGE guidelines.
+  id: glycopost
+  name: GlycoPOST
+  url: https://glycopost.glycosmos.org/
+- description: Repository for MIRAGE-compliant deposition of annotated glycan tandem mass spectrometry peak lists.
+  id: unicarb-dr
+  name: UniCarb-DR
+  url: https://unicarb-dr.glycosmos.org/
+- description: Curated reference library of glycan tandem mass spectra.
+  id: unicarb-db
+  name: UniCarb-DB
+  url: https://unicarb-db.org/
+- description: Repository for glycopeptide and glycoconjugate data, assigning identifiers that link peptide, protein and glycan structure accessions.
+  id: glycomb
+  name: GlyComb
+  url: https://glycomb.glycosmos.org/
+- description: International repository and accession authority for glycan structures, providing stable identifiers for registered structures.
+  id: glytoucan
+  name: GlyTouCan
+  url: https://glytoucan.org/
+- description: Web3 Unique Representation of Carbohydrate Structures, the canonical machine-readable encoding for branched and partially determined glycan structures.
+  id: wurcs
+  name: WURCS
+  url: https://glytoucan.org/Wurcs/
+- description: Glycan Naming and Subsumption Ontology, organising glycan structure accessions by their degree of structural characterisation.
+  id: gnome
+  name: GNOme
+  url: https://gnome.glyomics.org/
+- description: Symbol Nomenclature for Glycans, the community standard graphical notation for representing glycan structures.
+  id: snfg
+  name: Symbol Nomenclature for Glycans (SNFG)
+  url: https://www.ncbi.nlm.nih.gov/glycans/snfg.html
+- description: Web-based editor for drawing glycan structures, supporting ambiguous and underdetermined structures and export to standard encodings.
+  id: sugardrawer
+  name: SugarDrawer
+  url: https://sugardrawer.glycosmos.org/
+- description: Software for the semi-automatic annotation of glycan tandem mass spectra, whose output files are widely used for glycomics data deposition.
+  id: glycoworkbench
+  name: GlycoWorkbench
+  url: https://glycoworkbench.sourceforge.net/
+- description: Search engine for glycopeptide identification from tandem mass spectra, using a glycan-first search strategy.
+  id: pglyco3
+  name: pGlyco3
+  url: https://github.com/pFindStudio/pGlyco3
+- description: Computational platform for mass spectrometry-based proteomics, including open search workflows for glycoproteomics.
+  id: fragpipe
+  name: FragPipe
+  url: https://fragpipe.nesvilab.org/
+- description: Open source search and post-translational modification discovery software, including localisation of O-glycosylation sites.
+  id: metamorpheus
+  name: MetaMorpheus
+  url: https://github.com/smith-chem-wisc/MetaMorpheus
+- description: Integrative portal for glycoconjugate data, linking glycan structures to proteins, genes and biological pathways.
+  id: glygen
+  name: GlyGen
+  url: https://www.glygen.org/
+- description: Platform integrating glycoprotein and glycan structure data, developed at the SIB Swiss Institute of Bioinformatics.
+  id: glyconnect
+  name: GlyConnect
+  url: https://glyconnect.expasy.org/
+- description: Integrative web portal for glycoscience data and resources, hosting glycan structure, repository and ontology services.
+  id: glycosmos
+  name: GlyCosmos
+  url: https://glycosmos.org/
+- description: European portal providing access to glycomics databases, tools and structure resources.
+  id: glyco-expasy
+  name: Glyco@Expasy
+  url: https://www.expasy.org/glycomics
+- description: Database of glycan structures from bacteria, archaea, plants and fungi, including NMR data and simulation tools.
+  id: csdb
+  name: Carbohydrate Structure Database (CSDB)
+  url: https://csdb.glycoscience.ru/
