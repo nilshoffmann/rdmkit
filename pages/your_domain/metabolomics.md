@@ -180,7 +180,7 @@ Deposit the raw data, not just the processed table. Raw spectra can be reprocess
 - Contribute your reference spectra back to a library. Depositing to {% tool "massbank" %} or {% tool "mona" %} turns a private measurement into a public annotation resource, and it is one of the highest-leverage things a metabolomics laboratory can do.
 - State the licence and any access conditions when you deposit, so that reusers know what they are allowed to do with the data. See [licensing](licensing).
 - If your samples are of human origin, treat the data as potentially personal. Metabolic profiles are derived from human material and are usually linked to clinical or lifestyle data, so consent, access control and legal basis all apply. See [human data](human_data), [data sensitivity](data_sensitivity) and [General Data Protection Regulation (GDPR) compliance](gdpr_compliance).
-- For a multi-omics study, deposit each data type in its appropriate repository and then interlink them, so the parts can be found together. See [data interlinking](data_interlinking). {% tool "omicsdi" %} indexes datasets across genomics, proteomics, transcriptomics and metabolomics, and is a good place to look for existing data to reuse; for metabolomics alone, search {% tool "metabolomicshub" %}.
+- For a multi-omics study, deposit each data type in its appropriate repository and then interlink them, so the parts can be found together. See [data interlinking](data_interlinking) and the [multi-omics](multiomics) page. {% tool "omicsdi" %} indexes datasets across genomics, proteomics, transcriptomics and metabolomics, and is a good place to look for existing data to reuse; for metabolomics alone, search {% tool "metabolomicshub" %}.
 
 ## Lipid identification and nomenclature
 
