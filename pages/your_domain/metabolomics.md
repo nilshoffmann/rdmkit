@@ -89,11 +89,14 @@ At a minimum, record:
 
 - Report the experiment against a community checklist. The {% tool "cimr" %} checklist from the Metabolomics Standards Initiative sets out the minimum you should describe. For studies in a regulatory toxicology context, the Organisation for Economic Co-operation and Development (OECD) omics reporting framework applies instead.
 - Read the {% tool "lipidomics-minimal-reporting-checklist" %} even if your study has nothing to do with lipids {% cite mcdonald2022Introducing %}. Most of its items describe pre-analytics, sample handling, the analytical method, the mass spectrometry setup, method validation and quality control, and only become lipid-specific for extraction, ionisation and lipid quantification. On those shared acquisition details it is considerably more granular than the general metabolomics checklists, so it is a useful companion to them.
+- Distinguish biological replicates, technical replicates, pooled quality-control samples, blanks, reference materials and calibration samples explicitly.
 - Structure your study metadata with {% tool "isa-tools" %}. The Investigation-Study-Assay model separates the experimental design from the individual assays, and it is what {% tool "metabolights" %} expects on submission, so using it early saves work later.
-- Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
-- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
+- Distinguish biological replicates, technical replicates, pooled quality-control samples, blanks, reference materials and calibration samples explicitly.
 - Annotate with controlled vocabularies rather than free text. The {% tool "msio" %} covers metabolomics study design, and the {% tool "psi-ms" %} covers instruments and acquisition. Use {% tool "chebi" %} for chemical entities.
+- Convert raw data to an open format as soon as it comes off the instrument. {% tool "mzml" %} is the open standard for raw mass spectra, and {% tool "msconvert" %} converts the major vendor formats to it. For NMR, use {% tool "nmrml" %}. For imaging, use {% tool "imzml" %}.
+- Preserve the relationship between raw files, intermediate results, feature tables, annotations and final statistical results.
 - Keep the vendor raw files. Conversion is lossy in practice, tools improve, and repositories generally accept both.
+- Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
 
 ## Storing and organising raw data
 
