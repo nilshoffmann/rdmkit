@@ -51,6 +51,7 @@ The remedy is well established {% cite broadhurst2018Guidelines %}: randomise th
 - Is the batch structure and the injection order recorded, or only the sample list?
 - Did you include internal standards, and are they described well enough for someone else to use them for normalisation?
 - Are you reporting quality metrics alongside the data, or expecting reusers to recompute them?
+- Can a reuser determine whether each reported variable is a raw signal, an extracted feature, a grouped ion, an annotated metabolite or a quantitatively validated compound?
 - For a clinical or multi-site study, did you use a common reference material so that batches can be aligned across sites?
 
 ### Solutions
