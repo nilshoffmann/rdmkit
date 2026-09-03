@@ -69,6 +69,15 @@ Metabolomics data without metadata is close to worthless. A peak list on its own
 
 Fortunately, you do not have to invent a way to record this. The {% tool "metabolomics-standards-initiative" %}, the {% tool "lipidomics-standards-initiative" %} and the {% tool "proteomics-standards-initiative" %} between them provide reporting checklists, controlled vocabularies and open file formats that cover the whole path from raw spectra to reported results. Most of the formats here are governed by the Proteomics Standards Initiative and are shared with proteomics, so adopting them buys you interoperability across both domains. See also the general [metadata management](metadata_management) page.
 
+At a minimum, record:
+
+- The biological source, including species, strain or variety, genotype, phenotype, developmental stage or age, and relevant sex or clinical characteristics.
+- The sampled material, such as whole organism, organ, tissue, cell line, biofluid or extract.
+- Sampling conditions, storage, freeze–thaw history, extraction protocol and sample preparation.
+- The experimental design, including treatment, diet, genotype, time point, longitudinal structure, randomisation and biological or technical replicates.
+- The analytical platform, chromatographic or spectroscopic method, column, gradient, ionisation mode, polarity, scan settings and acquisition parameters.
+- The processing steps used to produce each derived data product, including peak picking, alignment, deconvolution, annotation, normalisation, filtering and batch correction.
+
 ### Considerations
 
 - Which analytical platform did you use, and does an open format exist for it?
