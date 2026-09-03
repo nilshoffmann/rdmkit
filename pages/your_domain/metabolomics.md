@@ -98,6 +98,17 @@ At a minimum, record:
 - Keep the vendor raw files. Conversion is lossy in practice, tools improve, and repositories generally accept both.
 - Report your results in {% tool "mztab-m" %} {% cite hoffmann2019MzTabM %}. This is the metabolomics-specific results format, and it is the one to use for identifications and quantifications. It is the counterpart of mzTab in proteomics and, unusually, is explicitly designed to cover lipidomics too.
 
+### Data products
+
+A metabolomics study may produce several linked data products:
+
+- Raw instrument files, including vendor-specific files and, where possible, converted open-format files.
+- Processed spectra or chromatograms.
+- An NMR intensity matrix, often containing one value per spectral bucket and sample. Bucket width, spectral region, alignment, exclusion regions and normalisation method should be recorded because they influence the resulting variables.
+- An MS feature matrix, commonly containing one value per feature and sample. Features may be described by retention time, \(m/z\), polarity, ionisation mode and intensity; depending on the workflow, several ion features may be grouped as a single compound.
+- Metabolite annotations or identifications, including database matches, spectral evidence, annotation level, confidence and associated identifiers.
+- Targeted quantitative results, including units, calibration model, internal standards, limits of detection or quantification and validation information.
+
 ## Storing and organising raw data
 
 ### Description
